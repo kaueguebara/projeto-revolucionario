@@ -4,8 +4,6 @@
   </q-page>
 </template>
 
-<p>lorem</p>
-
 <style>
 .main-title {
   font-size: 65px;
