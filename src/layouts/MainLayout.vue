@@ -58,12 +58,6 @@ const linksList = [
     icon: "contact_page",
     link: "/contact",
   },
-  {
-    title: "Forum",
-    caption: "forum.quasar.dev",
-    icon: "record_voice_over",
-    link: "https://forum.quasar.dev",
-  },
 ];
 
 export default defineComponent({

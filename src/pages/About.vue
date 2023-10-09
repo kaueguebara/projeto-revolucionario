@@ -1,30 +1,48 @@
 <template>
   <q-page>
-    <h1>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. In repellendus et
-      dicta saepe neque impedit aliquam hic ipsa laboriosam, veniam inventore
-      tempore odit officiis necessitatibus quia iste voluptas corrupti
-      laudantium a illum nostrum commodi? Ipsa, eum numquam magni ullam sed
-      repellat fugit impedit voluptas odio voluptatibus quis repellendus minima
-      velit eveniet laudantium quas soluta. Sed, non, animi voluptatibus quod
-      maxime consectetur explicabo ex totam quo ratione inventore nemo eaque
-      quisquam culpa quidem aut velit nisi id tenetur quam. Eaque, impedit? Quae
-      vitae, est laboriosam placeat mollitia, maiores vero delectus voluptatibus
-      illo rerum laudantium. Aut velit magnam culpa consequuntur esse, hic ipsam
-      qui omnis officia eaque aperiam voluptatem fuga sit excepturi deleniti
-      facere optio? Omnis officia distinctio sit veniam tenetur a, modi nesciunt
-      optio, laborum beatae possimus eaque? Sapiente omnis dolorum eius voluptas
-      cumque eaque. Eum, aspernatur porro sint fuga suscipit eos soluta, ipsam
-      ea consectetur accusantium earum, quod quis eaque ex! Veritatis porro
-      laudantium eos. Porro temporibus nesciunt odit, rerum maiores eum incidunt
-      corrupti assumenda voluptates vel ipsam neque excepturi nam culpa quos
-      modi eveniet. Molestias veritatis, dolores maxime nostrum ipsum
-      praesentium consectetur pariatur saepe? Totam repellat ratione architecto,
-      atque natus aliquid voluptatum, illo error unde nihil odio. Perspiciatis,
-      minus?
-    </h1>
+    <body>
+      <h1 class="main-title">Sobre o Produto</h1>
+      <h2 class="main-content">
+        O MemoriesCare é um produto projetado para melhorar a qualidade de vida
+        de pessoas que vivem com demência. Este produto é mais do que um simples
+        tablet, e uma ferramenta que oferece apoio emocional e funcionalidade
+        prática para pacientes e seus cuidadores, pois ele oferece:
+      </h2>
+
+      <p class="main-content">
+        <strong>Interface Intuitiva:</strong> O MemoriesCare possui uma
+        interface simples e intuitiva, adequada para pessoas com diferentes
+        níveis de habilidades cognitivas. Não é necessário conhecimento técnico
+        para operá-lo. <br />
+
+        <strong>Toque Tátil:</strong> Com grandes botões e uma tela sensível ao
+        toque de fácil manuseio, os pacientes podem navegar com confiança e
+        autonomia <br />
+
+        <strong>Independência Preservada:</strong> Graças à sua interface
+        simples, os pacientes podem realizar tarefas diárias, como ver a hora,
+        receber lembretes de medicamentos e ouvir músicas favoritas, com
+        autonomia. <br />
+
+        <strong>Estímulo à Memória:</strong> O MemoriesCare ajuda a reforçar
+        memórias antigas e a manter conexões emocionais. Exibe fotos, vídeos e
+        mensagens de familiares que evocam lembranças queridas. <br />
+      </p>
+    </body>
   </q-page>
 </template>
+
+<style>
+.main-title {
+  font-size: 65px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-content {
+  font-size: 35px;
+}
+</style>
 
 <script>
 import { defineComponent } from "vue";

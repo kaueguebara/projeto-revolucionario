@@ -1,6 +1,6 @@
 <template>
   <q-page>
-    <h1 class="main-title">Contact</h1>
+    <h1 class="main-title">Fale Conosco</h1>
   </q-page>
 </template>
 

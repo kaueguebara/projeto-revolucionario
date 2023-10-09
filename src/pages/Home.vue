@@ -1,10 +1,10 @@
 <template>
   <q-page>
     <body>
-      <h1 class="welcome">Bem-vindo à Ogramac</h1>
+      <h1 class="main-title">Bem-vindo à Ogramac</h1>
 
-      <div class="box">
-        <h2>
+      <div>
+        <h2 class="main-content">
           Na Ogramac, acreditamos que a inovação deve ser orientada pela empatia
           e pela busca incansável de melhorar a vida das pessoas. Somos uma
           empresa dedicada a criar produtos que fazem exatamente isso - tornar a
@@ -16,26 +16,16 @@
 </template>
 
 <style>
-body {
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-.welcome {
-  font-size: 50px;
+.main-title {
+  font-size: 65px;
   display: flex;
   justify-content: center;
 }
-.box {
-  font-size: 20px;
+
+.main-content {
+  font-size: 35px;
   display: flex;
   justify-content: center;
-  box-shadow: rgba(0, 0, 0, 0.15) 8px 8px 1px;
-  width: 100%;
-  border-radius: 10px;
-  background-color: #e7e7e7;
-  padding: 20px 0px 40px;
-  max-width: 800px;
 }
 </style>
 
