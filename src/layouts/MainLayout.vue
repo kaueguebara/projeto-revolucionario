@@ -11,7 +11,7 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title> Nome do site </q-toolbar-title>
+        <q-toolbar-title> Ogramac </q-toolbar-title>
       </q-toolbar>
     </q-header>
 
@@ -47,8 +47,8 @@ const linksList = [
     link: "/home",
   },
   {
-    title: "Sobre",
-    caption: "Sobre o produto",
+    title: "Produtos",
+    caption: "Conheça nossos produtos",
     icon: "category",
     link: "/about",
   },
