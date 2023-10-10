@@ -5,13 +5,13 @@
         <h1 class="main-title">Sobre o Produto</h1>
 
         <div class="box">
-          <h2 class="main-content">
+          <p class="main-content">
             O MemoriesCare é um produto projetado para melhorar a qualidade de
             vida de pessoas que vivem com demência. Este produto é mais do que
             um simples tablet, e uma ferramenta que oferece apoio emocional e
             funcionalidade prática para pacientes e seus cuidadores, pois ele
             oferece:
-          </h2>
+          </p>
 
           <p class="main-content">
             <span style="font-weight: bold">Interface Intuitiva:</span> O
@@ -45,14 +45,13 @@
   </q-page>
 </template>
 
-<style>
+<style scoped>
 section {
   text-align: center;
-  margin-top: 100px;
+  margin: 50px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 140px;
   padding: 0 40px;
 }
 
@@ -64,8 +63,11 @@ section {
 }
 
 .main-content {
-  font-size: 30px;
-  margin-top: 35px;
+  font-size: 1.4rem;
+  font-family: sans-serif;
+  text-align: justify;
+  padding: 16px;
+  margin: 0;
 }
 
 .box {
@@ -77,10 +79,6 @@ section {
   background-color: hsl(0, 0%, 91%);
   padding: 20px 40px;
   max-width: 1000px;
-}
-
-.box p {
-  padding: 20px 0;
 }
 </style>
 
