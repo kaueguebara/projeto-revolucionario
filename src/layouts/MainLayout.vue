@@ -1,8 +1,9 @@
 <template>
   <q-layout view="hHh Lpr fFf">
-    <q-header elevated>
-      <q-toolbar>
+    <q-header>
+      <q-toolbar class="bg-grey-4 text-white">
         <q-btn
+          style="color: #000"
           flat
           dense
           round
@@ -11,7 +12,7 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title> Ogramac </q-toolbar-title>
+        <q-toolbar-title style="color: #000"> Ogramac </q-toolbar-title>
       </q-toolbar>
     </q-header>
 

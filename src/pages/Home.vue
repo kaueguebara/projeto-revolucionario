@@ -29,13 +29,13 @@ section {
   padding: 0 40px;
 }
 .main-title {
-  font-size: 60px;
+  font-size: 55px;
   display: flex;
   justify-content: center;
 }
 
 .main-content {
-  font-size: 30px;
+  font-size: 28px;
   display: flex;
   justify-content: center;
 }
