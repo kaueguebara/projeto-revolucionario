@@ -192,8 +192,14 @@ const linksList = [
     link: "/products",
   },
   {
+    title: "Feedback",
+    caption: "Feedbacks dos Produtos",
+    icon: "feedback",
+    link: "/feedback",
+  },
+  {
     title: "Contato",
-    caption: "Adquira nosso produto",
+    caption: "Adquira nosso produtos",
     icon: "contact_page",
     link: "/contact",
   },

@@ -8,36 +8,71 @@
           <h2 class="main-content">
             Na Ogramac, acreditamos que a inovação deve ser orientada pela
             empatia e pela busca incansável de melhorar a vida das pessoas.
-            Somos uma empresa dedicada a criar produtos que fazem exatamente
-            isso - tornar a vida das pessoas mais fácil, mais saudável e mais
-            agradável.
+            <br />Somos uma empresa dedicada a criar produtos que fazem
+            exatamente isso - tornam a vida das pessoas mais fácil, mais
+            saudável e mais agradável. <br /><br />Com a OGRAMAC, viver bem é
+            <b>simples!</b>!
           </h2>
         </div>
+
+        <a href="https://projeto-revolucionario.vercel.app/products"
+          >Conheça nossos produtos!</a
+        >
       </section>
     </body>
   </q-page>
 </template>
 
 <style>
-section {
-  text-align: center;
-  margin-top: 200px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 140px;
-  padding: 0 40px;
-}
-.main-title {
-  font-size: 55px;
+body {
   display: flex;
   justify-content: center;
+  align-items: center;
+  min-height: 55vh;
+  margin: 0;
+}
+
+section {
+  padding-left: 120px;
+  padding-right: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.centered-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0 15vw;
+}
+
+.main-title {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
 }
 
 .main-content {
-  font-size: 28px;
-  display: flex;
-  justify-content: center;
+  font-size: 1.5rem;
+  line-height: 35px;
+  max-width: 65vw;
+}
+
+a {
+  margin-top: 30px;
+  font-size: 20px;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: grey;
+}
+a:active {
+  text-decoration: none;
 }
 </style>
 

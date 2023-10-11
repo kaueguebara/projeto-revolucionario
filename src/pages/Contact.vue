@@ -52,7 +52,6 @@ form {
   padding: 30px;
   background-color: #e7e7e7;
   border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.15) 8px 8px 1px;
 }
 
 label {
