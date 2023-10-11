@@ -1,48 +1,46 @@
 <template>
   <q-item
     clickable
+    class="column justify-center items-center text-center"
+    style="border-radius: 4px"
     tag="a"
     :href="link"
   >
-    <q-item-section
-      v-if="icon"
-      avatar
-    >
-      <q-icon :name="icon" />
+    <q-item-section v-if="icon">
+      <q-icon size="sm" :name="icon" />
     </q-item-section>
 
-    <q-item-section>
-      <q-item-label>{{ title }}</q-item-label>
-      <q-item-label caption>{{ caption }}</q-item-label>
-    </q-item-section>
+    <span>
+      {{ title }}
+    </span>
   </q-item>
 </template>
 
 <script>
-import { defineComponent } from 'vue'
+import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: 'EssentialLink',
+  name: "EssentialLink",
   props: {
     title: {
       type: String,
-      required: true
+      required: true,
     },
 
     caption: {
       type: String,
-      default: ''
+      default: "",
     },
 
     link: {
       type: String,
-      default: '#'
+      default: "#",
     },
 
     icon: {
       type: String,
-      default: ''
-    }
-  }
-})
+      default: "",
+    },
+  },
+});
 </script>

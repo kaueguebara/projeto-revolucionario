@@ -61,6 +61,10 @@ section {
 .idk {
   justify-content: space-around;
   display: flex;
+  gap: 25px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .main-title {
@@ -80,7 +84,7 @@ section {
 .box {
   display: flex;
   flex-direction: column;
-  align-items: end;
+  align-items: flex-end;
 }
 
 .main-image {

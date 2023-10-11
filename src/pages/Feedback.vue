@@ -2,7 +2,7 @@
   <q-page>
     <body>
       <section>
-        <h1 class="title">Feedback de úsuarios</h1>
+        <h1 class="title">Feedback de usuários</h1>
 
         <div class="video">
           <iframe

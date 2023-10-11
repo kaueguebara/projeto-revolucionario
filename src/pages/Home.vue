@@ -2,7 +2,7 @@
   <q-page>
     <body>
       <section>
-        <h1 class="main-title">Bem-vindo à Ogramac</h1>
+        <h1 class="main-title" style="margin: 30px 0">Bem-vindo à Ogramac</h1>
 
         <div>
           <h2 class="main-content">
@@ -11,24 +11,23 @@
             <br />Somos uma empresa dedicada a criar produtos que fazem
             exatamente isso - tornam a vida das pessoas mais fácil, mais
             saudável e mais agradável. <br /><br />Com a OGRAMAC, viver bem é
-            <b>simples!</b>!
+            <span class="text-bold">simples!</span>
           </h2>
         </div>
 
-        <a href="https://projeto-revolucionario.vercel.app/products"
-          >Conheça nossos produtos!</a
-        >
+        <a style="color: blue; margin-top: 32px" href="/products">
+          Conheça nossos produtos!
+        </a>
       </section>
     </body>
   </q-page>
 </template>
 
-<style>
+<style scoped>
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 55vh;
   margin: 0;
 }
 
@@ -60,7 +59,7 @@ section {
 }
 
 a {
-  margin-top: 30px;
+  margin-top: 15px;
   font-size: 20px;
 }
 a:link,
